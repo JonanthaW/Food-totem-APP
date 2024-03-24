@@ -58,7 +58,6 @@ A complete food totem APP used in fast food restaurants.
 
 #### Telas da aplicação (Clique nas setas à esquerda para mostrar as imagens):
 
-Balcao:
 <details>
   <Summary>Balcão de apresentação para pedidos prontos</Summary>
 <p align="center">
@@ -66,7 +65,7 @@ Balcao:
 </p>
 </details>
 
-Criar cupons:
+
 <details>
   <Summary>Tela de criação de cupons da Admnistração</Summary>
 <p align="center">
@@ -74,7 +73,6 @@ Criar cupons:
 </p>
 </details>
 
-ADM login:
 <details>
   <Summary>Tela de login para a admnistração</Summary>
 <p align="center">
