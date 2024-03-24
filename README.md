@@ -46,3 +46,12 @@ A complete food totem APP used in fast food restaurants.
 *  Comidas
 *  Pedidos
 *  Balcao
+
+
+
+## Telas da aplicação:
+
+Balcao:
+<p align="center">
+  <img src="https://github.com/JonanthaW/Food-totem-APP/blob/main/Images/Balcao.PNG">
+</p>
