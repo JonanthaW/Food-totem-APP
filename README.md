@@ -6,6 +6,10 @@ A complete food totem APP used in fast food restaurants.
 
 * Java 21
 * Spring framework
+* Lombok
+* Spring Security
+* Spring JPA
+* Thymeleaf
 * Postman
 * PostGreSQL
 
@@ -13,4 +17,12 @@ A complete food totem APP used in fast food restaurants.
 ## Features:
 
 #### Back-end:
-* Cupons 
+* Usuários podem adicionar cupons com desconto (POST).
+* Usuários recebem automaticamente uma lista com comidas disponíveis (GET).
+
+
+
+#### Database:
+*  Cupom
+*  Categorias
+*  Comidas
