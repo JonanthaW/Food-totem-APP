@@ -56,20 +56,27 @@ A complete food totem APP used in fast food restaurants.
 ## Front-end:
 
 
-## Telas da aplicação:
+#### Telas da aplicação (Clique nas setas à esquerda para mostrar as imagens):
 
 Balcao:
+<details>
+  <Summary>Balcão de apresentação para pedidos prontos</Summary>
 <p align="center">
   <img src="https://github.com/JonanthaW/Food-totem-APP/blob/main/Images/balcao.PNG">
 </p>
+</details>
 
 Criar cupons:
+<details>
+  <Summary>Tela de criação de cupons da Admnistração</Summary>
 <p align="center">
   <img src="https://github.com/JonanthaW/Food-totem-APP/blob/main/Images/cuponsCriar.PNG">
 </p>
+</details>
 
 ADM login:
 <details>
+  <Summary>Tela de login para a admnistração</Summary>
 <p align="center">
   <img src="https://github.com/JonanthaW/Food-totem-APP/blob/main/Images/loginADM.PNG">
 </p>
