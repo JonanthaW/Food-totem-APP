@@ -14,7 +14,7 @@ public class OrderReady {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "prontos_id")
-    private Long prontos_id;
+    private Long prontosId;
 
     @Column(name = "codigo")
     private Long codigo;

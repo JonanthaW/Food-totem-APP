@@ -14,10 +14,10 @@ public class Food {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "comida_id")
-    private Long comida_id;
+    private Long comidaId;
 
     @Column(name="categoria_id")
-    private Long categoria_id;
+    private Long categoriaId;
 
     @Column(name="nome")
     private String nome;

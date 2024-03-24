@@ -20,4 +20,9 @@ public class OrderReadyService {
     public Optional<OrderReady> createOrderReady(OrderReady orderReady) {
         return Optional.of(orderReadyRepository.save(orderReady));
     }
+
+    public boolean deleteByProntosIdAndStatus(Long prontos_Id, String status) {
+        orderReadyRepository.deleteByProntosIdAndStatus(prontos_Id, "PRNTO");
+        return false;
+    }
 }
