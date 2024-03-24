@@ -62,3 +62,8 @@ Balcao:
 <p align="center">
   <img src="https://github.com/JonanthaW/Food-totem-APP/blob/main/Images/balcao.PNG">
 </p>
+
+Criar cupons:
+<p align="center">
+  <img src="https://github.com/JonanthaW/Food-totem-APP/blob/main/Images/cuponsCriar.PNG">
+</p>
