@@ -16,7 +16,7 @@ A complete food totem APP used in fast food restaurants.
 
 ## Features:
 
-## ENUM catalogo
+#### ENUM catalogo
 * 'PEDEN' -> Pendente
 * 'PREPC' -> Em preparação
 * 'PRNTO' -> Pedido pronto para busca
@@ -53,5 +53,5 @@ A complete food totem APP used in fast food restaurants.
 
 Balcao:
 <p align="center">
-  <img src="https://github.com/JonanthaW/Food-totem-APP/blob/main/Images/Balcao.PNG">
+  <img src="https://github.com/JonanthaW/Food-totem-APP/blob/main/Images/balcao.PNG">
 </p>
