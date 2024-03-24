@@ -17,7 +17,8 @@ A complete food totem APP used in fast food restaurants.
 ## Features:
 
 #### Back-end:
-* Usuários podem adicionar cupons com desconto (POST).
+* Usuários podem adicionar cupons com desconto, se o cupom existir, retorna ok (GET).
+* Usuários podem receber uma lista com cupons disponíveis (GET).
 * Usuários recebem automaticamente uma lista com comidas disponíveis (GET).
 
 
