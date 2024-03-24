@@ -67,3 +67,10 @@ Criar cupons:
 <p align="center">
   <img src="https://github.com/JonanthaW/Food-totem-APP/blob/main/Images/cuponsCriar.PNG">
 </p>
+
+ADM login:
+<details>
+<p align="center">
+  <img src="https://github.com/JonanthaW/Food-totem-APP/blob/main/Images/loginADM.PNG">
+</p>
+</details>
