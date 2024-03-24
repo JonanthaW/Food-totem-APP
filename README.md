@@ -36,7 +36,12 @@ A complete food totem APP used in fast food restaurants.
 
 -> Atendentes
 
-* Atendentes podem enviar os pedidos prontos para a tela de notificação no balcão para que os usuários busquem (GET). 
+* Atendentes podem enviar os pedidos prontos para a tela de notificação no balcão para que os usuários busquem (GET).
+
+
+-> Admnistradores:
+
+* Podem criar cupons válidos com valores de descontos e datas de expiração (POST).
 
 
 
@@ -47,6 +52,8 @@ A complete food totem APP used in fast food restaurants.
 *  Pedidos
 *  Balcao
 
+
+## Front-end:
 
 
 ## Telas da aplicação:
