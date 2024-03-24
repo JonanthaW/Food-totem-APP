@@ -16,13 +16,18 @@ A complete food totem APP used in fast food restaurants.
 
 ## Features:
 
-#### ENUM catalogo
+#### ENUM Status dos pedidos:
 * 'PEDEN' -> Pendente
 * 'PREPC' -> Em preparação
 * 'PRNTO' -> Pedido pronto para busca
 * 'CANCEL' -> Pedido cancelado
 * 'FINLZ' -> Finalizado e entregue
 
+### ENUM Categorias:
+* 1 -> Hamburguer e afins
+* 2 -> Bebidas
+* 3 -> Sorvetes
+* 4 - Pizzas
 
 #### Back-end:
 
