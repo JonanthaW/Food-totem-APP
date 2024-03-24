@@ -20,6 +20,7 @@ A complete food totem APP used in fast food restaurants.
 * 'PEDEN' -> Pendente
 * 'PREPC' -> Em preparação
 * 'PRNTO' -> Pedido pronto para busca
+* 'CANCEL' -> Pedido cancelado
 * 'FINLZ' -> Finalizado e entregue
 
 
@@ -37,12 +38,13 @@ A complete food totem APP used in fast food restaurants.
 -> Atendentes
 
 * Atendentes podem enviar os pedidos prontos para a tela de notificação no balcão para que os usuários busquem (GET).
+* Atendentes podem cancelar pedidos se eles ainda não estiverem prontos. (DELETE);
 
 
 -> Admnistradores:
 
 * Podem criar cupons válidos com valores de descontos e datas de expiração (POST).
-* Admnistradores podem apagar cupons antes do prazo de validade (Delete).
+* Admnistradores podem apagar cupons antes do prazo de validade (DELETE).
 
 
 
