@@ -44,3 +44,5 @@ A complete food totem APP used in fast food restaurants.
 *  Cupom
 *  Categorias
 *  Comidas
+*  Pedidos
+*  Balcao
