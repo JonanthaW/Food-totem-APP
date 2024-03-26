@@ -10,8 +10,12 @@ import java.util.Optional;
 
 @Service
 public class OrderReadyService {
-    @Autowired
+
     private OrderReadyRepository orderReadyRepository;
+
+    public OrderReadyService(OrderReadyRepository orderReadyRepository) {
+        this.orderReadyRepository = orderReadyRepository;
+    }
 
     public List<OrderReady> getAllOrderReady() {
         return orderReadyRepository.findAll();
@@ -23,6 +27,6 @@ public class OrderReadyService {
 
     public boolean deleteByProntosIdAndStatus(Long prontos_Id, String status) {
         orderReadyRepository.deleteByProntosIdAndStatus(prontos_Id, "PRNTO");
-        return false;
+        return true;
     }
 }

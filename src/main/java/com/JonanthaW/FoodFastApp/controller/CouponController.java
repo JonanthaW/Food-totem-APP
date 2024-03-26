@@ -3,7 +3,6 @@ package com.JonanthaW.FoodFastApp.controller;
 import com.JonanthaW.FoodFastApp.entity.Coupon;
 import com.JonanthaW.FoodFastApp.service.CouponService;
 import jakarta.transaction.Transactional;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,8 +14,11 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/cupom")
 public class CouponController {
-    @Autowired
     private CouponService couponService;
+
+    public CouponController(CouponService couponService) {
+        this.couponService = couponService;
+    }
 
     @GetMapping("/{code}")
     public ResponseEntity<?> getCouponByName(@PathVariable String code) {

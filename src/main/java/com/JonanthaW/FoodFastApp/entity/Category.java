@@ -14,12 +14,12 @@ public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "categoria_id")
-    private Long categoria_id;
+    private Long categoriaId;
 
     @Column(name="nome")
     private String nome;
 
     @ManyToOne
     @JoinColumn(name = "comida_id", referencedColumnName = "comida_id")
-    private Food comida_id;
+    private Food comidaId;
 }

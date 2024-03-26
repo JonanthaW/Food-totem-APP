@@ -1,21 +1,21 @@
 package com.JonanthaW.FoodFastApp.service;
 
 import com.JonanthaW.FoodFastApp.entity.Food;
-import com.JonanthaW.FoodFastApp.entity.OrderReady;
 import com.JonanthaW.FoodFastApp.repository.FoodRepository;
-import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-@Transactional
 @Service
 public class FoodService {
 
-    @Autowired
     private FoodRepository foodRepository;
+
+    public FoodService(FoodRepository foodRepository) {
+        this.foodRepository = foodRepository;
+    }
 
     public List<Food> getAllFood() {
         return foodRepository.findAll();

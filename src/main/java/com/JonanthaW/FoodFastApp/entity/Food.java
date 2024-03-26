@@ -3,8 +3,6 @@ package com.JonanthaW.FoodFastApp.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
