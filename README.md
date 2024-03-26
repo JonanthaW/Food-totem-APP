@@ -52,6 +52,7 @@ A complete food totem APP used in fast food restaurants.
 * Admnistradores podem apagar cupons antes do prazo de validade (DELETE).
 * Adminstradores podem criar novas e postar comidas (POST).
 * Adminstradores podem apagar comidas (DELETE).
+* Adminstradores podem ver todas categorias (GET).
 
 
 
